@@ -147,6 +147,7 @@ fun main() {
         } else {
             for (n in personList.indices) {
                 personList[n].printDetails()
+                println()
             }
             break
         }
